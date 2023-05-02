@@ -89,6 +89,6 @@ spec:
             - sh
             - -c
             - |
-              curl -X POST "http://54.84.193.22:8080/generic-webhook-trigger/invoke?token=1234567890" \
+              curl -X POST "http://20.120.72.17:8080/generic-webhook-trigger/invoke?token=1234567890" \
               --data-urlencode 'json={"parameter": [{"name": "DEPLOYMENT_COMPLETE", "value": "true"}]}'
 
